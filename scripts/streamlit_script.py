@@ -97,5 +97,5 @@ max_index = lending_chart_df.index[lending_chart_df["year:period"] == end_p][0]
 lending_chart_df = lending_chart_df[(lending_chart_df.index >= min_index) & (lending_chart_df.index <= max_index)]
 lending_chart_df = lending_chart_df.set_index("year:period")
 lending_chart_df.rename(columns={"MS_TOTAL_TRANSACTIONS": "Total amount of transactions"}, inplace=True)
-col2.write('''### Long term interest per quartile''')
+col2.write('''### Long term interest per period''')
 col2.line_chart(lending_chart_df)
