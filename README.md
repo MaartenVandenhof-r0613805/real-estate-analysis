@@ -1,1 +1,3 @@
-real-estate-analysis
+# TL;DR
+This project tries to analyse the real estate market in the Flanders region of Belgium.
+First it visualises the data found [here](https://real-estate-analysis-flanders.herokuapp.com) and afterwards it tries to simulate the price increases for each quartile using Lasso Regression and Decision Trees [here](https://real-estate-fl-ml.herokuapp.com).
